@@ -7,23 +7,49 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: rgb(13, 56, 3);
-    color: yellowgreen;
+    background-color: rgb(0, 0, 0);
 }
 
 #poema {
-    /*background-color: black;*/
+    background-image: linear-gradient(45deg, rgb(0, 0, 0),  rgb(5, 145, 107));
+    font-family: 'Bona Nova', serif;
+    border: 2px solid black;
+    margin:10px;
+    padding: 5px;
+    
 }
 #poema h1 {
-    background-color: rgb(4, 89, 1);
+    /*background-color: rgb(4, 89, 1);*/
+    color: rgb(0, 0, 0);
     padding: 10px;
-    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     text-align:start ;
- }
+}
 
 #poema h2 {
     display: flex;
     text-align:start;
+    color: rgb(142, 138, 141);
+    /*color: yellowgreen;*/
+    font-size:medium;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    width: 250px;
+}
+footer a {
+    /*background-color: blueviolet;*/
+    color: rgb(183, 0, 255);
+    font-style:normal;
+    text-decoration:solid;
+    border: 1px solid darkmagenta;
+    border-radius: 10px;
+    padding: 5px;
+}
+ footer :hover a{
+     background-color: rgba(137, 43, 226, 0.422);
+     color:rgb(0, 0, 0);
+     font-family: 'Bona Nova', serif;
  }
